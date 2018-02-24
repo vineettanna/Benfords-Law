@@ -2,7 +2,7 @@
 Understanding Benford's Law
 Benford's Law is an observation about the frequency distribution of leading digits in many real-life sets of numerical data. The law states that in many naturally occurring collections of numbers, the leading significant digit is likely to be small. It follows the distribution according to the formula:
 
-P(d) = log<sub>10</sub>(d+1) - log<sub>10</sub>(d)
+P(d) = log<sub>10</sub>(d+1) - log<sub>10</sub>(d) where d is a digit (0-9)
 
 In Experimenting with Benford's Law, I write a function which tests if a series follows Benford's distribution using KS Statistics. Then I use this function to test if randomly generated numbers, their products or their products having a value > 0.1 follow Benford's Law
 
